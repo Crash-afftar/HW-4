@@ -565,7 +565,7 @@ nav {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
-
+/* EXAMPLES */
 .example-name {
   margin-bottom: 4px;
   font-weight: 700;
@@ -574,18 +574,15 @@ nav {
   letter-spacing: 0.06em;
   color: var(--black-color);
 }
-
 .example-descr {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
 .examle-item {
   background-color: #eeeeee;
 }
-
 .example {
   display: flex;
   flex-wrap: wrap;
@@ -596,9 +593,14 @@ nav {
   width: calc((100% - 60px) / 3);
 }
 
-.example-item:hover,
-.example-item:focus {
-  border: 1px solid #eeeeee;
+.example-link {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-link:hover,
+.example-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
